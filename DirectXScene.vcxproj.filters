@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{f091b033-bcfc-4ec3-b96b-5fc048d42964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{51f7a42c-12e8-49ad-9327-f2c68791e74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Elements">
+      <UniqueIdentifier>{13c166a4-e7a6-4f6c-ba67-a26cbf662c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Elements">
+      <UniqueIdentifier>{16b59126-2528-4522-ad58-1755875c538a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\System">
+      <UniqueIdentifier>{e23d71c3-7ceb-4e17-97d8-4446bf6fb49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{3b1d1fb4-472c-405d-9324-b9952960f6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Scenes">
+      <UniqueIdentifier>{9dc9831e-38d0-4566-b9a8-7877f0b56cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes">
+      <UniqueIdentifier>{faecd304-7427-4d72-b727-c1f88388b1e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferWithIndexes.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTest.cpp">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSolarSystem.cpp">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoading.cpp">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferWithIndexes.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirectXElement.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirectXScene.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTest.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSolarSystem.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoading.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
