@@ -85,7 +85,7 @@ BOOL App::InitWindow()
 	r = RegisterClassEx(&wcex);
 
 	if (FAILED(r))
-	{	
+	{
 		return FALSE;
 	}
 
@@ -155,7 +155,7 @@ void App::FailBox(TCHAR *msg, HRESULT r)
 {
 	TCHAR* buffer = new TCHAR[1024];
 	ZeroMemory(buffer, sizeof(TCHAR) * 1024);
-		
+
 	_snwprintf(
 		buffer,
 		1024,

@@ -74,7 +74,7 @@ void SceneSolarSystem::UpdateMatrices()
 		0.0f,
 		cosf(g_fRotationToSun) * 150
 	);
-	D3DXMatrixMultiply(&matWorld, &matWorldRotation, &matWorldTranslation);	
+	D3DXMatrixMultiply(&matWorld, &matWorldRotation, &matWorldTranslation);
 	m_meshEarth->SetMatrix(&matWorld);
 
 	// WorldMatrix für Mond: Um Erde bewegen
@@ -85,7 +85,7 @@ void SceneSolarSystem::UpdateMatrices()
 		cosf(g_fRotationToEarth) * 25,
 		0.0f
 	);
-	D3DXMatrixMultiply(&matWorld, &matWorldTranslation, &matWorldTranslation2);	
+	D3DXMatrixMultiply(&matWorld, &matWorldTranslation, &matWorldTranslation2);
 	m_meshMoon->SetMatrix(&matWorld);
 }
 
@@ -105,7 +105,7 @@ bool SceneSolarSystem::LoadScene()
 	m_labelInfo = new Label(g_Device);
 	m_labelInfo->SetText(L"Linke-Maustaste: Kamera bewegen\nMittlere-Maustaste: Licht an/aus\nRechte-Maustaste: Wireframe an/aus");
 	m_listElements->Add(m_labelInfo);
-	
+
 	// Licht erstellen
 	App::dx->m_sceneLoading->SetParams(20, L"Licht laden...");
 	ok = LoadLight();
@@ -124,7 +124,7 @@ bool SceneSolarSystem::LoadLight()
 {
 	float f = 100.0f;
 	Light* light;
-	
+
 	light = new Light(g_Device);
 	light->SetPosition(D3DXVECTOR3(-f, 0.0f, 0.0f));
 	m_listElements->Add(light);

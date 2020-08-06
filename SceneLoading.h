@@ -13,7 +13,7 @@ public:
 
 	void Render();
 
-	void SetParams(float percent, TCHAR* text); 
+	void SetParams(float percent, TCHAR* text);
 private:
 	Label* m_labelText;
 	VertexBufferWithIndexes* m_ivbBar;

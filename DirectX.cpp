@@ -89,7 +89,7 @@ BOOL DirectX::InitDirectX()
 	m_sceneLoading->LoadScene();
 
 	// Szene erstellen und laden
-	//m_Scene = new SceneTest(g_Device, m_listElements);
+	//IDirectXScene* scene = new SceneTest(g_Device, m_listElements);
 	IDirectXScene* scene = new SceneSolarSystem(g_Device, m_listElements);
 	ok = scene->LoadScene();
 	m_Scene = scene;
